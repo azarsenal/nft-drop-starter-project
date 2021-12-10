@@ -392,7 +392,7 @@ const CandyMachine = ({ walletAddress }) => {
       <div className="machine-container">
         {/* Add this at the beginning of our component */}
         {renderDropTimer()}
-        <p>{`Drop Date: ${machineStats.goLiveDateTimeString}`}</p>
+        
         <p>{`Items Minted: ${machineStats.itemsRedeemed} / ${machineStats.itemsAvailable}`}</p>
         {/* Check to see if these properties are equal! */}
         {machineStats.itemsRedeemed === machineStats.itemsAvailable ? (
